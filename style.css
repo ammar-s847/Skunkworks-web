@@ -1,0 +1,51 @@
+/*
+Presets:
+
+Primary-color: rgb(33, 115, 0) or #217300
+
+Secondary-color: rgb(255, 255, 255) or #FFFFFF
+
+Heading-font: 'Montserrat', sans-serif
+
+Body-font: 'Roboto', sans-serif
+*/
+
+/* Meta Contents */
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* Page Elements */
+
+#top {
+    position: fixed;
+    background-color: rgb(33, 115, 0);
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top * {
+    display: inline-block;
+}
+
+#top img {
+    height: 50px;
+    margin: 15px 5px;
+}
+
+#top-h1 {
+    font-size: 40px;
+    margin: 20px 10px;
+    padding: 0px;
+    color: white;
+    top: 0;
+}
