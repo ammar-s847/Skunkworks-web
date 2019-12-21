@@ -33,10 +33,18 @@ body {
     height: 80px;
     padding: 0px 10px;
     font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
+    text-align: center;
 }
 
 #top * {
     display: inline-block;
+}
+
+#top button {
+    border: none;
+    background-color: inherit;
+    color: white;
 }
 
 #top img {
@@ -60,5 +68,47 @@ body {
 #banner {
     width: 100%;
     height: 100vh;
-    background-image: url("images/Sample-banner.jpeg");
+    background-image: url("images/home-image-cropped.jpg");
+    background-size: cover;
+}
+
+#banner-box {
+    width: 50vw;
+    height: 140px;
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 25vw;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding: 10px;
+    color: white;
+}
+
+#banner-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+#banner-box {
+    font-family: 'Roboto', sens-serif;
+}
+
+#about-us {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-top: -20px;
+    height: 500px;
+    width: 100%;
+    padding: 25px 20vw;
+}
+
+#about-us * {
+    width: 60vw;
+}
+
+#about-us h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-us p {
+    font-family: 'Roboto', sans-serif;
 }
