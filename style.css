@@ -22,10 +22,6 @@ body {
     padding: 0;
 }
 
-.body-component {
-    width: 60vw;
-}
-
 /* Page Elements */
 
 #top {
@@ -102,7 +98,13 @@ body {
     margin-top: -20px;
     height: auto;
     width: 100%;
-    padding: 25px 20vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20vw;
+}
+
+#about-us div {
+    width: 60vw;
 }
 
 #about-us h2, #about-us h3 {
@@ -114,7 +116,8 @@ body {
 }
 
 #about-us table {
-    margin: 0px
+    margin: 0px;
+    width: 60vw;
 }
 
 #about-us td {
