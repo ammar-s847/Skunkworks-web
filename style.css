@@ -22,6 +22,10 @@ body {
     padding: 0;
 }
 
+.body-component {
+    width: 60vw;
+}
+
 /* Page Elements */
 
 #top {
@@ -96,19 +100,26 @@ body {
     background-color: rgb(25, 25, 25);
     color: white;
     margin-top: -20px;
-    height: 500px;
+    height: auto;
     width: 100%;
     padding: 25px 20vw;
 }
 
-#about-us * {
-    width: 60vw;
-}
-
-#about-us h2 {
+#about-us h2, #about-us h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-#about-us p {
+#about-us p, #about-us li {
     font-family: 'Roboto', sans-serif;
+}
+
+#about-us table {
+    margin: 0px
+}
+
+#about-us td {
+    padding: 5px;
+    width: 48%;
+    height: auto;
+    vertical-align: baseline;
 }
