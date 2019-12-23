@@ -22,6 +22,10 @@ body {
     padding: 0;
 }
 
+td {
+    vertical-align: baseline;
+}
+
 /* Page Elements */
 
 #top {
@@ -98,13 +102,20 @@ body {
     margin-top: -20px;
     height: auto;
     width: 100%;
+    padding: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+#about-us > * {
+    width: 60vw;
     padding-left: 20vw;
 }
 
-#about-us div {
-    width: 60vw;
+#about-us-container {
+    padding-left: 20vw;
+    width: 100%;
+    display: block;
 }
 
 #about-us h2, #about-us h3 {
@@ -117,12 +128,11 @@ body {
 
 #about-us table {
     margin: 0px;
-    width: 60vw;
+    width: 80vw;
 }
 
 #about-us td {
     padding: 5px;
     width: 48%;
     height: auto;
-    vertical-align: baseline;
 }
