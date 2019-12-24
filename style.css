@@ -136,3 +136,40 @@ td {
     width: 48%;
     height: auto;
 }
+
+#partners > * {
+    width: 60vw;
+    padding-left: 20vw;
+}
+
+#partners h2, #partners h3, #partners span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#partners p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#partners img {
+    width: 10vw;
+}
+
+#partners td {
+    margin: 0px;
+    padding: 0px 10vw;
+    vertical-align: middle;
+}
+
+#robots {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+#robots > * {
+    width: 60vw;
+    padding-left: 20vw;
+}
+
+#robots h2, #robots h3 {
+    font-family: 'Montserrat', sans-serif;
+}
