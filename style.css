@@ -216,18 +216,53 @@ td {
 
 /*----------------------------------------------------------------------------------------*/
 
-#pictures {
+#robots {
     background-color: white;
     padding-top: 1px;
     padding-bottom: 15px;
 }
 
-#pictures > * {
+#robots > * {
     width: 60vw;
     padding-left: 20vw;
 }
 
-#pictures h2, #pictures h3 {
+#robots h2, #robots h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+#awards {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+
+#awards > * {
+    width: 60vw;
+    padding-left: 20vw;
+}
+
+#awards h2, #awards h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+#gallery {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+
+#gallery > * {
+    width: 60vw;
+    padding-left: 20vw;
+}
+
+#gallery h2, #gallery h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -246,4 +281,10 @@ td {
 
 #footer > p:nth-last-child(1) {
     font-size: 13px;
+    margin-top: 0px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
 }
